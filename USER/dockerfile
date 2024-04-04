@@ -1,3 +1,3 @@
 FROM almalinux:8
-RUN user add sivagangadhar
+RUN useradd sivagangadhar
 RUN echo "Hello this is Docker" > /tmp/hello.txt
